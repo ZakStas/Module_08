@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   img {
+    width: 100%;
+    height: auto;
+    display: block;
+   }
+   /* HEADER */
+   .header {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+   }
+   .promo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/phone.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    margin-bottom: 68px;
+   }
+   .link {
+    padding-top: 34px;
+    text-align: center;
+    margin-bottom: 120px;
+   }
+   
+   .log {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+   }
+   .link_up {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 18px;
+    background-color: rgba(26, 25, 21, 0);
+    padding: 10px 16px;
+   }
+   .gluck {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 38px;
+   }
+   .header_wrapper {
+    width: 280px;
+    margin: 0 auto;
+   }
+   .holiday {   
+    font-size: 29px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   }
+   .perfect {
+    font-size: 18px;
+    width: 220px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 18px;
+   }
+   .finder {
+    width: 281px;
+    height: 41px;
+    font-size: 14px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700; 
+    text-align: center; 
+    background-color: #FF4E50;
+    border-radius: 20px;
+    border: none; 
+   }
+   
+   /* Mobile */
+   
+   .wrapper {
+    width: 254px;
+    margin: 0 auto;
+   }
+   li {
+    list-style: none;
+   }
+   .item {
+    margin-bottom: 28px;
+   }
+   .partner {
+    font-size: 22px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-bottom: 14px;
+    width: 270px;
+    text-align: center;
+   }
+   .layer {
+    border-radius: 50%;
+   }
+   .peoples {
+    font-size: 14px;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+   }
+   .about {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+   }
+   .Ellipse {
+    position: relative;
+    width: 122px;
+    height: 122px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+   }
+   .Ellipse__icon {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .Ellipse1 {
+    background-image: url(../icons/1.png);
+    background-color: #ff4e50;
+   }
+   .Ellipse2 {
+    background-image: url(../icons/2.png);
+    background-color: #ffa507;
+   }
+   .Ellipse3 {
+    background-image: url(../icons/3.png);
+    background-color: #1CD7AD;
+   }
+   .Ellipse4 {
+    background-image: url(../icons/4.png);
+    background-color: #4E73DB;
+   }
+   .other {
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    color: #FF4E50;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700; 
+    text-align: center; 
+    background-color: #FFF;
+    border-radius: 20px;
+    border-color: #FF4E50;
+    margin: 28px 0;
+   }
+
+   /* -------MEDIA--------*/
+   
+   @media screen and (min-width: 768px) {
+    /* HEADER */
+    .promo {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../images/tablet.jpg);
+    }
+    .reference {
+      display: flex;
+      justify-content: space-between;
+      padding: 36px 39px 0 40px;
+      flex-direction: row-reverse;
+      margin-bottom: 70px;
+    }
+    .link {
+      padding: 0;
+      margin-bottom: 0;
+    }
+    .header_wrapper {
+      width: 510px;
+    }
+    .perfect {
+      width: 100%;
+      margin-bottom: 32px;
+      font-size: 24px;
+    }
+    .holiday {
+      font-size: 52px;
+    }
+    .finder {
+      margin: 0 auto;
+      display: block;
+      width: 228px;
+    }
+    .promo {
+      margin-bottom: 72px;
+    }
+   
+    /* MAIN */
+    .wrapper {
+      width: 492px;
+      margin: 0 auto;
+    }
+    .partner {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+    .item {
+      width: 236px;
+      margin-bottom: 0;
+    }
+    .item:nth-of-type(odd) {
+      margin-bottom: 62px;
+    }
+    .comand {
+      height: 515px;
+      display: flex;
+      flex-flow: column wrap;
+      margin-bottom: 38px;
+    }
+    .other {
+      margin: 0 auto;
+      display: block;
+      width: 194px;
+      height: 40px;
+    }
+   }
+   
+   @media screen and (min-width: 1200px) {
+    /* HEADER */
+    .promo {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../images/header.png);
+    }
+    .reference {
+      width: 940px;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 110px;
+    }
+    .gluck {
+      margin: 0;
+    }
+    .header_wrapper {
+      width: 478px;
+    }
+    .holiday {
+      font-size: 48px;
+    }
+    .wrapper {
+      width: 914px;
+      margin: 0 auto;
+    }
+    .comand {
+      display: flex;
+      flex-flow: nowrap;
+      justify-content: space-between;
+      height: auto;
+      margin-bottom: 30px;
+    }
+    .comand .item {
+      width: 218px;
+      margin-bottom: 0;
+    }
+    .other {
+      margin: 0 auto;
+      display: block;
+      height: 40px;
+      margin-bottom: 68px;
+    }
+    .order1 {
+      order: 1;
+    }
+    .order2 {
+      order: 3;
+    }
+    .order3 {
+      order: 2;
+    }
+    .order4 {
+      order: 4;
+    }
+   }
